@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="C64Emulator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Fullscreen" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ResolutionWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">806</Value>
+    </Setting>
+    <Setting Name="ResolutionHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">568</Value>
+    </Setting>
+    <Setting Name="Joystick1Map" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="Joystick2Map" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KeySet1Up" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">UpArrow</Value>
+    </Setting>
+    <Setting Name="KeySet1Right" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">RightArrow</Value>
+    </Setting>
+    <Setting Name="KeySet1Down" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">DownArrow</Value>
+    </Setting>
+    <Setting Name="KeySet1Left" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">LeftArrow</Value>
+    </Setting>
+    <Setting Name="KeySet1Fire" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">LeftControl</Value>
+    </Setting>
+    <Setting Name="KeySet2Up" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">Keypad8</Value>
+    </Setting>
+    <Setting Name="KeySet2Right" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">Keypad6</Value>
+    </Setting>
+    <Setting Name="KeySet2Down" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">Keypad5</Value>
+    </Setting>
+    <Setting Name="KeySet2Left" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">Keypad4</Value>
+    </Setting>
+    <Setting Name="KeySet2Fire" Type="SdlDotNet.Input.Key" Scope="User">
+      <Value Profile="(Default)">LeftAlt</Value>
+    </Setting>
+    <Setting Name="LastHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShowSpeed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
