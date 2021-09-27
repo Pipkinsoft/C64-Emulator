@@ -14,7 +14,7 @@ namespace C64Emulator
     {
         private const int MEMORY_SIZE = 0x10000; //64 KB
 
-        private byte[] ram = new byte[MEMORY_SIZE];
+        private readonly byte[] ram = new byte[MEMORY_SIZE];
 
         private ushort activeVICVMStart;
         private ushort activeVICVMEnd;

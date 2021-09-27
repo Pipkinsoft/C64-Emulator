@@ -63,8 +63,8 @@ namespace C64Emulator
         private bool joyPort2Left = false;
         private bool joyPort2Fire = false;
 
-        private MapType[] joyMap;
-        private KeySet[] keyset;
+        private readonly MapType[] joyMap;
+        private readonly KeySet[] keyset;
 
         private int timerAValue = 0;
         private int timerAStartValue = 0;

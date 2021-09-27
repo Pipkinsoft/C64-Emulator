@@ -10,8 +10,8 @@ namespace C64Emulator
         private const int PALETTE_SIZE = 0x400;
         private const ushort PALETTE_POS = 0xD800;
 
-        private byte[] palette;
-        private Color[] colormap;
+        private readonly byte[] palette;
+        private readonly Color[] colormap;
 
         public Palette()
         {

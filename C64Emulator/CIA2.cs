@@ -58,7 +58,7 @@ namespace C64Emulator
 
             if (clockCycles >= CLOCK_CYCLES)
             {
-                clockCycles = clockCycles - CLOCK_CYCLES;
+                clockCycles -= CLOCK_CYCLES;
 
                 timeTenthSecs++;
 

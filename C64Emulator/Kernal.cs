@@ -11,7 +11,7 @@ namespace C64Emulator
         private const ushort KERNAL_POS = 0xE000;
         private const int KERNAL_SIZE = 0x2000;
 
-        private byte[] kernal;
+        private readonly byte[] kernal;
 
         public Kernal(string file)
         {

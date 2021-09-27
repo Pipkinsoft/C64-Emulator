@@ -10,7 +10,7 @@ namespace C64Emulator
         private const ushort CHAR_POS1 = 0xD000;
         private const int CHAR_SIZE = 0x1000;
 
-        private byte[] charset;
+        private readonly byte[] charset;
 
         public Char(string file)
         {

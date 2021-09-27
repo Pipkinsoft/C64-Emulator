@@ -10,7 +10,7 @@ namespace C64Emulator
         private const ushort BASIC_POS = 0xA000;
         private const int BASIC_SIZE = 0x2000;
 
-        private byte[] basic;
+        private readonly byte[] basic;
 
         public BASIC(string file)
         {

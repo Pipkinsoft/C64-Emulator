@@ -9,7 +9,7 @@ namespace C64Emulator
         private const ushort REGISTERS_POS = 0xD400;
         private const int NUM_REGISTERS = 29;
 
-        private byte[] register;
+        private readonly byte[] register;
 
         public SID()
         {
